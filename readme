@@ -1,0 +1,18 @@
+README
+For run this program for detection and recognization is needed OpenCV library installed in computer.
+For unix computer, in first you should change the path for opencv library in FaceRecognition.pro to your path.
+
+Running 
+After first run, you should set up the way you want to recognize face in second way (by mouth, by eyes).
+The scaleFactor should be set to 1.5 for face recognition from quadrocopter, for others its not depend on it so much.
+Next you should set up name of folder, where the faces will be saved.
+Next click on Detect & collect and wait for result.
+
+In recognization mode, you can set up scaleFactor, upload .CSV file, upload video, choose 
+the recognization algorithm and click on recognization.
+
+The number of label will be displayed in picture on the top of recognized person.
+
+With stop button the program will stop the streaming and other functions.
+
+
